@@ -1,0 +1,47 @@
+.clause {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+  // min-height: 100vh;
+  counter-increment: listCounter;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.355) 0px 0px 35px 0px,
+    rgba(0, 0, 0, 0.068) 0px 0px 0px 1px;
+
+  &__nest {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-height: 50vh;
+    width: 100%;
+    text-align: center;
+    padding: 3em;
+    background-color: $accent-color;
+  }
+  &__article {
+    font-weight: bolder;
+    padding: 10px;
+  }
+
+  &__image {
+    margin-bottom: -1em;
+  }
+  &__article:after {
+    content: counter(listCounter, decimal);
+    position: absolute;
+    top: calc(var(--index) * -15);
+    left: calc(var(--index));
+    height: 1px;
+    font-size: calc(var(--index) * 40);
+    opacity: 0.09;
+    font-weight: bolder;
+    z-index: 4;
+  }
+
+  &_white,
+  &_white &__nest {
+    background-color: white;
+    color: black;
+  }
+}

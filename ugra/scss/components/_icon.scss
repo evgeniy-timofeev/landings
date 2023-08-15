@@ -1,0 +1,115 @@
+.icon {
+  position: relative;
+  display: flex;
+  left: 1em;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+
+  span {
+    line-height: 0.8;
+    font-size: calc(var(--index) * 9);
+    font-weight: bolder;
+    text-transform: uppercase;
+    opacity: 0.7;
+  }
+
+  i {
+    position: relative;
+    top: calc(var(--index) * 1);
+    left: calc(var(--index) * -3);
+    width: calc(var(--index) * 8);
+    height: calc(var(--index) * 6);
+    z-index: 3;
+
+    &.stadium {
+      background: url("../images/sprites.png") no-repeat;
+      background-size: cover;
+      background-position: calc(var(--index) * 1) 0;
+    }
+
+    &.hockey {
+      background: url("../images/sprites.png") no-repeat;
+      background-size: cover;
+      background-position: calc(var(--index) * -11) 0;
+    }
+
+    &.football {
+      background: url("../images/sprites.png") no-repeat;
+      background-size: cover;
+      background-position: calc(var(--index) * -22) 0;
+    }
+
+    &.soccer {
+      background: url("../images/sprites.png") no-repeat;
+      background-size: cover;
+      background-position: calc(var(--index) * -35) 0;
+    }
+
+    &.sports {
+      background: url("../images/sprites.png") no-repeat;
+      background-size: cover;
+      background-position: calc(var(--index) * -47) 0;
+    }
+
+    &.wrestling {
+      background: url("../images/sprites.png") no-repeat;
+      background-size: cover;
+      background-position: calc(var(--index) * -59) 0;
+    }
+
+    &.gymnastics {
+      background: url("../images/sprites.png") no-repeat;
+      background-size: cover;
+      background-position: calc(var(--index) * -71) 0;
+    }
+
+    &.warehouses {
+      background: url("../images/sprites.png") no-repeat;
+      background-size: cover;
+      background-position: calc(var(--index) * -83) 0;
+    }
+
+    &.granaries {
+      background: url("../images/sprites.png") no-repeat;
+      background-size: cover;
+      background-position: calc(var(--index) * -95) 0;
+    }
+
+    &.techniques {
+      background: url("../images/sprites.png") no-repeat;
+      background-size: cover;
+      background-position: calc(var(--index) * -107) 0;
+    }
+
+    &.aerialangars {
+      background: url("../images/sprites.png") no-repeat;
+      background-size: cover;
+      background-position: calc(var(--index) * -119) 0;
+    }
+
+    &.trains {
+      background: url("../images/sprites.png") no-repeat;
+      background-size: cover;
+      background-position: calc(var(--index) * -131) 0;
+    }
+
+    &.livestock {
+      background: url("../images/sprites.png") no-repeat;
+      background-size: cover;
+      background-position: calc(var(--index) * -143) 0;
+    }
+
+    &.dairy {
+      background: url("../images/sprites.png") no-repeat;
+      background-size: cover;
+      background-position: calc(var(--index) * -155) 0;
+    }
+
+    &.pavilions {
+      background: url("../images/sprites.png") no-repeat;
+      background-size: cover;
+      background-position: calc(var(--index) * -167) 0;
+    }
+  }
+}

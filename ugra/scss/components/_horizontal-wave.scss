@@ -1,0 +1,35 @@
+#horisontal-wave-svg {
+  position: absolute;
+  z-index: 3;
+  .shape-1,
+  .shape-2,
+  .shape-3 {
+    fill: #fb913d;
+    fill-rule: evenodd;
+    height: 50px;
+    z-index: 3;
+  }
+
+  .shape-2 {
+    fill-opacity: 0.39;
+  }
+
+  .shape-3 {
+    fill-opacity: 0.21;
+  }
+
+  path {
+    width: 100%;
+  }
+
+  &.white {
+    .shape-1,
+    .shape-2,
+    .shape-3 {
+      fill: #ffffff;
+      fill-rule: evenodd;
+      height: 50px;
+      z-index: 3;
+    }
+  }
+}

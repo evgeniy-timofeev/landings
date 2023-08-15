@@ -1,0 +1,27 @@
+@import "hero";
+@import "logo";
+@import "benefit";
+@import "contacts";
+@import "information";
+@import "logo";
+
+section {
+  position: relative;
+  display: flex;
+  // min-width: 350px;
+  width: 100%;
+  // height: 100vh;
+  overflow: hidden;
+
+  @media only screen and (max-width: 767px) {
+    min-height: 300px;
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    min-height: 400px;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    min-height: 500px;
+  }
+}

@@ -1,0 +1,20 @@
+.hero {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  flex-basis: 100%;
+
+  > h1 {
+    @supports ((-webkit-background-clip: text) or (background-clip: text)) or
+      (-webkit-background-clip: text) {
+      // background-image: url("data:image/svg+xml,%3Csvg width='2250' height='900' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath fill='%23FDC294' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='%23FDAD6D'/%3E%3Ccircle cx='1777.5' cy='318.5' r='477.5' fill='%23BC8151'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%23FB913D'/%3E%3C/g%3E%3C/svg%3E%0A");
+      // background-size: 120% auto;
+      // background-position: center;
+      color: transparent;
+      background: linear-gradient(to right, #000000, #413f3b);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: calc(var(--index) * 4);
+    }
+  }
+}

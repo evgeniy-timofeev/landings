@@ -1,0 +1,23 @@
+.benefit {
+  &__list {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      li {
+        display: flex;
+        position: relative;
+        padding-left: 2em;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        border: 4px dashed #ffc292;
+        margin: 2em;
+        z-index: 10;
+      }
+    }
+  }
+}
