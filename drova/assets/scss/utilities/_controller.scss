@@ -1,0 +1,18 @@
+.mobile-none {
+  @media (max-width: 608px) {
+    display: none !important;
+  }
+}
+
+.desktop-none {
+  @media (min-width: 608px) {
+    display: none !important;
+  }
+}
+
+.bi {
+  @media (max-width: 608px) {
+    width: 166%;
+    padding: 0;
+  }
+}

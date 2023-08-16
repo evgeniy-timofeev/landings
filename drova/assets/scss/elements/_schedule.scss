@@ -1,0 +1,7 @@
+.schedule {
+  width: 50%;
+  @media (max-width: 608px) {
+    width: 100%;
+    font-size: 1.618em;
+  }
+}

@@ -1,0 +1,29 @@
+.hero {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  @media (max-width: 608px) {
+    background-position: 100% 100%;
+  }
+  &__suggest {
+    width: 100%;
+    padding: 2em 8em;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    @media (max-width: 608px) {
+      width: 100%;
+      padding: .618em;
+    }
+  }
+  &__poster {
+    width: 39%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    @media (max-width: 608px) {
+      width: 100%;
+    }
+  }
+}

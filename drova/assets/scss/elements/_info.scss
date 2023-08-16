@@ -1,0 +1,17 @@
+.info {
+  width: 61%;
+  text-align: left;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  font-size: .618em;
+  small {
+    font-weight: bolder;
+    opacity: .6;
+    font-size: .618em;
+  }
+  @media (max-width: 608px) {
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+  }
+}

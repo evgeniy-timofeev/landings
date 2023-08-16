@@ -1,0 +1,65 @@
+.stock {
+  background: url("../images/leafs.png");
+
+  @media (max-width: 608px) {
+    background-size: contain;
+  }
+  &__wrapper {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: space-around;
+    -ms-flex-line-pack: distribute;
+    align-content: space-around;
+    width: 100%;
+  }
+
+  &_wood-img {
+    width: 61%;
+    @media (max-width: 608px) {
+      width: 39%;
+    }
+  }
+
+  &__img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1em;
+    @media (max-width: 608px) {
+      width: 100%;
+    }
+  }
+
+  &__offer {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    width: 100%;
+
+
+    p, h2, h3 {
+      @media (max-width: 400px) {
+        background: white;
+      }
+    }
+
+    @media (max-width: 608px) {
+      width: 100%;
+    }
+  }
+
+  img {
+    padding-right: 1.617em;
+    padding-left: 1.617em;
+  }
+
+}

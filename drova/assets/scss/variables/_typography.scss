@@ -1,0 +1,9 @@
+:root {
+  --size-index: calc(1vw + 1vh);
+}
+
+$font-heading: "Vin", sans-serif;
+$font-body: "calibri", sans-serif;
+$font-size-h1: calc(var(--size-index) * 3);
+$font-size-h2: calc(var(--size-index) * 2);
+$font-size-h3: calc(var(--size-index) * 1);

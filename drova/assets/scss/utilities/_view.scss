@@ -1,0 +1,124 @@
+.animate__animated {
+  opacity: 0;
+}
+
+.notion-p {
+  font-size: 0.618em;
+  text-transform: unset;
+}
+
+.bg-black {
+  background: black;
+  color: white;
+}
+
+.allocated {
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+.shift-left {
+  @media (max-width: 608px) {
+    position: relative;
+    left: -13em;
+  }
+}
+
+.shift-right {
+  @media (max-width: 608px) {
+    position: relative;
+    right: -13em;
+  }
+}
+
+.w100 {
+  width: 100%;
+}
+
+.w33 {
+  width: 33%;
+}
+
+.cw {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
+.tac {
+  text-align: center;
+}
+
+.wp100,
+.wp200,
+.wp300,
+.wp400,
+.wp500,
+.wp600,
+.wp700,
+.wp800 {
+  display: none;
+}
+
+.content-center {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  width: 100%;
+}
+
+@media (max-width: 100px) {
+  .wp100 {
+    display: block;
+  }
+}
+
+@media (max-width: 200px) {
+  .wp200 {
+    display: block;
+  }
+}
+
+@media (max-width: 300px) {
+  .wp300 {
+    display: block;
+  }
+}
+
+@media (max-width: 400px) {
+  .wp400 {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  .wp500 {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .wp600 {
+    display: block;
+  }
+}
+
+@media (max-width: 700px) {
+  .wp700 {
+    display: block;
+  }
+}
+
+@media (max-width: 800px) {
+  .wp800 {
+    display: block;
+  }
+}

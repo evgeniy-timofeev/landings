@@ -1,0 +1,30 @@
+p {
+  width: 100%;
+  text-transform: lowercase;
+  text-align: center;
+  /*@media (max-width: 608px) {
+    font-size: .618em;
+  }*/
+  b {
+    color: $color-button;
+    text-shadow: 0 1px 1px rgb(0, 0, 0, 94%);
+  }
+  span {
+    font-size: 1.618em;
+    font-weight: bolder;
+  }
+  sup {
+    position: relative;
+    font-size: 1.618em;
+    color: red;
+    text-shadow: 0 1px 1px rgb(0, 0, 0, 94%);
+    top: -.618em;
+  }
+}
+
+a {
+  color: white;
+  font-family: "calibri",sans-serif;
+  font-weight: bolder;
+  text-decoration: none;
+}

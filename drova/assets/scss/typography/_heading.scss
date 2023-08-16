@@ -1,0 +1,34 @@
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: $font-heading;
+  width: 100%;
+}
+
+h1 {
+  font-size: 2.617em;
+  @media (max-width: 608px) {
+    font-size: 1.618em;
+  }
+}
+
+h2 {
+  font-size: 1.618em;
+  @media (max-width: 608px) {
+    font-size: 1.618em;
+  }
+}
+
+h3 {
+  font-size: .991em;
+  @media (max-width: 608px) {
+    font-size: 1.618em;
+  }
+
+  /*@media (max-width: 608px) {
+    font-size: 1.2em;
+  }*/
+}

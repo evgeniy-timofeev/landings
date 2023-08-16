@@ -1,0 +1,16 @@
+@import "logo";
+@import "point";
+@import "info";
+@import "schedule";
+@import "phone";
+@import "contacts";
+@import "decoration";
+
+.phone, .schedule {
+  small {
+    font-size: .618em;
+  }
+  @media (max-width: 608px) {
+    margin-top: 2em;
+  }
+}

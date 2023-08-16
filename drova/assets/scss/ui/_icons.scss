@@ -1,0 +1,66 @@
+[class^="icon"] {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+
+.icon-leaf,
+.icon-leaf-aspen,
+.icon-leaf-birch,
+.icon-leaf-alder {
+  padding: 3em;
+  top: 3px;
+  @media (max-width: 608px) {
+    padding: 4em;
+    top: 13px;
+  }
+}
+
+.icon-leaf {
+  background-image: url("../images/leaf.png");
+}
+
+.icon-leaf-birch {
+  background-image: url("../images/leaf-birch.png");
+}
+
+.icon-leaf-alder {
+  background-image: url("../images/leaf-alder.png");
+}
+
+.icon-leaf-aspen {
+  background-image: url("../images/leaf-aspen.png");
+}
+
+.icon-map,
+.icon-time,
+.icon-phone-fill,
+.icon-phone-outlined,
+.icon-click {
+  position: relative;
+  display: inline-block;
+  top: .236em;
+  margin-right: .236em;
+  width: 1em;
+  height: 1em;
+}
+
+.icon-map {
+  background-image: url("../images/map-icon.svg");
+}
+
+.icon-time {
+  background-image: url("../images/time-icon.svg");
+}
+
+.icon-phone-fill {
+  background-image: url("../images/phone-fill-icon.svg");
+}
+
+.icon-phone-outlined {
+  background-image: url("../images/phone-outlined-icon.svg");
+}
+
+.icon-click {
+  background-image: url("../images/click-icon.svg");
+}
